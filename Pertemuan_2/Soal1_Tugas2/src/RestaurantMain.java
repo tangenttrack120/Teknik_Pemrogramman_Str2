@@ -2,17 +2,26 @@ public class RestaurantMain {
     public static void main(String[] args) {
         Restaurant menu = new Restaurant();
 
-        menu.tambahMenuMakanan("Pizza", 250000, 20);
-        Restaurant.nextId();
+        // Memasukkan data awal
+        menu.tambahMenuMakanan("Bala-Bala", 1000, 20);
+        menu.tambahMenuMakanan("Gehu", 1000, 20);
+        menu.tambahMenuMakanan("Tahu", 1000, 0);
+        menu.tambahMenuMakanan("Molen", 1000, 20);
 
-        menu.tambahMenuMakanan("Spaghetti", 80000, 20);
-        Restaurant.nextId();
+        System.out.println("Daftar Menu:");
+        menu.tampilMenuMakanan();
 
-        menu.tambahMenuMakanan("Tenderloin Steak", 60000, 30);
-        Restaurant.nextId();
+        System.out.println("\nSimulasi Pesanan:");
+        // Pesanan berhasil (stok mencukupi)
+        menu.pesanMenu("Bala-Bala", 5);
 
-        menu.tambahMenuMakanan("Chicken Steak", 45000, 30);
+        // Pesanan ditolak (stok tidak mencukupi)
+        menu.pesanMenu("Gehu", 25);
 
+        // Pesanan menu yang tidak ada
+        menu.pesanMenu("Ayam Goreng", 2);
+
+        System.out.println("\nDaftar Menu setelah Pesanan:");
         menu.tampilMenuMakanan();
     }
 }
