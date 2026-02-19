@@ -1,5 +1,9 @@
 package id.ac.polban.employee.service;
 
+import id.ac.polban.employee.model.Department;
+import id.ac.polban.employee.model.Employee;
+import id.ac.polban.employee.model.EmploymentType;
+
 public class EmployeeMain {
     public static void main(String[] args) {
         // Membuat object Department
