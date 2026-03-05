@@ -18,9 +18,8 @@ public class Paint
 // Returns the amount of paint (number of gallons)
 // needed to paint the shape given as the parameter.
 //---------------------------------------------------
-    public double amount(Shape s)
-    {
-        System.out.println ("Computing amount for " + s);
-        return 0;
+    public double amount(Shape s) {
+        System.out.println("Computing amount for " + s);
+        return s.area() / coverage; // Solusi: luas dibagi coverage [cite: 208, 209]
     }
 }
