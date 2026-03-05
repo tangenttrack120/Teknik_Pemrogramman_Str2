@@ -29,15 +29,13 @@ public class Sorting
 // Sorts the specified array of objects using the insertion
 // sort algorithm.
 //-----------------------------------------------------------------
-    public static void insertionSort (Comparable[] list)
-    {
-        for (int index = 1; index < list.length; index++)
-        {
+    // Dalam kelas Sorting, ubah tanda `< 0` menjadi `> 0` pada metode insertionSort
+    public static void insertionSort (Comparable[] list) {
+        for (int index = 1; index < list.length; index++) {
             Comparable key = list[index];
             int position = index;
-// Shift larger values to the right
-            while (position > 0 && key.compareTo(list[position-1]) < 0)
-            {
+            // Ubah dari < 0 menjadi > 0 agar sorting menjadi Descending
+            while (position > 0 && key.compareTo(list[position-1]) > 0) {
                 list[position] = list[position-1];
                 position--;
             }
