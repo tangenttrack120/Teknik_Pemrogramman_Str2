@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a1a2ef-2984-46d3-82f3-336b8339f7bf" name="Changes" comment="" />
+    <list default="true" id="87bd3809-f05c-40f0-b242-3b7eac553db6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Pertemuan_4/untitled" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pertemuan_4/untitled" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soal1_Tugas1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soal1_Tugas1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soal1_Tugas1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soal1_Tugas1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soal1_Tugas1/Soal1_Tugas1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemOne.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +38,19 @@
     <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="AzNJXFHX" />
+    <option name="directoryName" value="8oXUhSg6" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="3BkDMTfaggZOXZfB1WI6VFgw964" />
+  <component name="ProjectId" id="3BkEchP3UlrCSVw8esLib857t6p" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ProblemOne.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,25 +61,17 @@
     "go.import.settings.migrated": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Volumes/Data/work/Code/Teknik_Pemrogramman_Semester2/Pertemuan_5/Soal1_Tugas1/src/Main.java",
+    "onboarding.tips.debug.path": "/Volumes/Data/work/Code/Teknik_Pemrogramman_Semester2/Pertemuan_5/Soal1_Tugas5/src/Main.java",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,12 +82,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3a1a2ef-2984-46d3-82f3-336b8339f7bf" name="Changes" comment="" />
-      <created>1775024129539</created>
+      <changelist id="87bd3809-f05c-40f0-b242-3b7eac553db6" name="Changes" comment="" />
+      <created>1775024748350</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1775024129539</updated>
-      <workItem from="1775024130767" duration="40000" />
+      <updated>1775024748350</updated>
+      <workItem from="1775024749373" duration="393000" />
     </task>
     <servers />
   </component>
